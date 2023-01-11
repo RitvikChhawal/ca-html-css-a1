@@ -114,7 +114,36 @@ header .topBar a{
     font-size: 14px!important;
     font-weight: 700!important;
 }
+section.landing {
+	height: 475px;
+	background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+	background-color: #fbdc00;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100%;
+	margin-bottom: 50px;
+	margin-top: 56px;
+	padding: 48px 76px 48px 76px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
+.landing-left h1 {
+	margin-bottom: 20px;
+	font-size: 40px;
+	line-height: 1.2;
+	font-family: var(--heading);
+}
+
+.landing-left p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.landing-right {
+	margin-top: 55px;
+}
 
 p{
     display: block;
